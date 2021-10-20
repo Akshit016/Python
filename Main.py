@@ -7,10 +7,19 @@
 # even_numbers = list(range(2,13,2))
 # print(even_numbers)
 
-squares = []
-for value in range(1,11): #this loop is going to print a list of squares 
-    squares.append(value**2)
+# squares = []
+# for value in range(1,11): #this loop is going to print a list of squares 
+#     squares.append(value**2)
 
-#the above for loop is going to create a list of squares from 1 to 10
+# print(squares)
+
+digits = [1,2,3,4,5,6,7,8,9]
+print("The min value is: ", min(digits))
+print("The maximum value is: ", max(digits))
+print("The sum of the digits is: ", sum(digits))
+
+#using list comprehension
+squares = [value**2 for value in range(1,11)]
 print(squares)
+
 
