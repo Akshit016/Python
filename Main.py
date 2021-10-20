@@ -8,7 +8,7 @@
 # print(even_numbers)
 
 squares = []
-for value in range(1,11):
+for value in range(1,11): #this loop is going to print a list of squares 
     squares.append(value**2)
 
 #the above for loop is going to create a list of squares from 1 to 10
