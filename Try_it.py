@@ -23,8 +23,7 @@
 # for x in cubes:
 #     print(x)
 
-players = ['virat kohli', 'dhoni', 'yuvaraj',
-                     'raina', 'sachin tendulakar']
+
 #print(players[0:3]) #printing the elements from index 0 to 2(3-1)
 
 #print(players[:4]) #if we omit the beginning index it takes 0 as default
@@ -35,8 +34,43 @@ players = ['virat kohli', 'dhoni', 'yuvaraj',
 # for player in players[:3]:
 #     print(player.title())
 
-new_players = players[:]
-new_players.append('siraj')
-new_players.append('chahal')
-print(new_players)
+# new_players = players[:]
+# new_players.append('siraj')
+# new_players.append('chahal')
+# print(new_players)
+
+# players = ['virat kohli', 'dhoni', 'yuvaraj',
+#                      'raina', 'sachin tendulakar']
+
+
+
+# pizzas = ['cheese', 'panner', 'chicken']
+# friend_pizas = pizzas[:]
+# friend_pizas.append('extra cheese')
+# friend_pizas.append('spicy')
+# pizzas.append('mutton')
+
+# print("My favourite pizzas are: ")
+# for x in pizzas:
+#     print('\t',x.title())
+
+# print("My friends favourite lists are: ")
+# for _ in friend_pizas:
+#     print('\t',_.title())
+
+#mutable list - list
+#immutable list - tuples
+
+dimensions = (200,50)
+print("Original dimensions:")
+for _ in dimensions:
+    print(_)
+
+dimensions = (400,100)
+print("Modified dimensions:")
+for _ in dimensions:
+    print(_)
+
+values = (10,20) #old value of tuple
+values = (30,40) #updated value of tuple
 
