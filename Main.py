@@ -9,8 +9,8 @@
 
 squares = []
 for value in range(1,11):
-    square = value**2
-    squares.append(square)
+    squares.append(value**2)
 
 #the above for loop is going to create a list of squares from 1 to 10
 print(squares)
+
