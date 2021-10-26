@@ -36,10 +36,21 @@
 
 # print("Akshit's favourite language is " + favourite_languages['akshit'].title() + '.')
 
-person = {
-    'fullname' : 'sai akshit',
-    'city' : 'hyderabad',
-    'age' : '17'
+# person = {
+#     'fullname' : 'sai akshit',
+#     'city' : 'hyderabad',
+#     'age' : '17'
+# }
+
+# print('My name is ' + person['fullname'].title() + " I'm " + person['age'] + ", I live in " + person['city'].title() + '.')
+
+user_0 = {
+    'username' : 'efermi',
+    'first' : 'enrico',
+    'last' : 'fermi'
 }
 
-print('My name is ' + person['fullname'].title() + " I'm " + person['age'] + ", I live in " + person['city'].title() + '.')
+for key, value in user_0.items():
+    print('\nKey: '+key)
+    print('Value: '+ value)
+
