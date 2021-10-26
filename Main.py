@@ -19,7 +19,8 @@ print("The maximum value is: ", max(digits))
 print("The sum of the digits is: ", sum(digits))
 
 #using list comprehension
-squares = [value**2 for value in range(1,11)]
-print(squares)
+# squares = [value**2 for value in range(1,11)]
+# print(squares)
 
-
+name = 'akshit'
+print(f'Hello, {name}')
